@@ -1,0 +1,28 @@
+# Exclude credentials and sensitive environment configs
+.env
+.env.*
+*.env
+secrets/
+keys/
+*.pem
+*.key
+*.token
+
+# Ignore private logs and scratchpad directories
+logs/
+*.log
+scratch/
+tmp/
+
+# Ignore client uploads and custom client datasets
+client_uploads/
+*.dirty.csv
+*.clean.csv
+*.private.json
+
+# System and editor directories
+.vscode/
+.idea/
+.DS_Store
+__pycache__/
+*.pyc
