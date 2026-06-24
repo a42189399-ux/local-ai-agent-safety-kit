@@ -1,3 +1,5 @@
+> **Status: Cold-kept historical experiment. Not actively maintained.**
+
 # Local AI Agent Safety Kit
 
 > [!NOTE]
